@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-corsproxy-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://corsproxy.dev/
+corsproxy.dev provides a managed CORS relay service that enables browsers to call third‑party APIs without building their own proxy infrastructure. It offers API keys, rate limits, request logs, a dashboard, and an open‑source self‑hosted relay. Free tier gives 500 requests per day, with paid plans for higher volume and enterprise features. The service includes documentation, status page, blog, and open source code on GitHub.
+
+**Areas:** Company · CORS · Proxy · API · Developer Tools · Open Source
+
+## corsproxy-dev on APIs.io
+
+Everything profiled for corsproxy-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/corsproxy-dev/](https://apis.io/providers/corsproxy-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [corsproxy-dev Health API](https://apis.io/apis/corsproxy-dev/corsproxy-dev-health-api/) — The health API from corsproxy-dev — 1 operation(s) for health.
+- [corsproxy-dev MCP API](https://apis.io/apis/corsproxy-dev/corsproxy-dev-mcp-api/) — Remote MCP server for AI assistants and agents.
+- [corsproxy-dev Proxy API](https://apis.io/apis/corsproxy-dev/corsproxy-dev-proxy-api/) — The Proxy API from corsproxy-dev — 2 operation(s) for proxy.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Corsproxy Dev Agentic Access](https://apis.io/agentic-access/corsproxy-dev/corsproxy-dev-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [corsproxy-dev API Rules](https://apis.io/rules/corsproxy-dev/corsproxy-dev-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Corsproxy Dev Authentication](https://apis.io/security/corsproxy-dev/corsproxy-dev-authentication/)
+- [Corsproxy Dev Domain Security](https://apis.io/security/corsproxy-dev/corsproxy-dev-domain-security/)
+- [Corsproxy Dev Vulnerability Disclosure](https://apis.io/security/corsproxy-dev/corsproxy-dev-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Corsproxy Dev Plans Pricing](https://apis.io/plans/corsproxy-dev/corsproxy-dev-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Corsproxy Dev Rate Limits](https://apis.io/rate-limits/corsproxy-dev/corsproxy-dev-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://corsproxy.dev/)
+- [Documentation](https://corsproxy.dev/docs/)
+- [Getting started](https://corsproxy.dev/docs/)
+- [API reference](https://corsproxy.dev/openapi.yaml)
+- [Pricing](https://corsproxy.dev/compare/)
+- [Sign up](https://app.corsproxy.dev/auth/login)
+- [Support](https://corsproxy.dev/about/)
+- [Blog](https://corsproxy.dev/blog/)
+- [Security](https://corsproxy.dev/blog/cors-proxy-security)
+- [Terms of service](https://corsproxy.dev/legal/terms/)
+- [Privacy policy](https://corsproxy.dev/legal/privacy/)
+- [GitHub](https://github.com/melihbirim)
+- [Status](https://corsproxy.dev/status/)
+
+## API Evangelist rating
+
+**Kin Score 59.2** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 44.9 |
+| Contract governance | 62.7 |
+| Operational transparency | 50.5 |
+| Developer ergonomics | 61.9 |
+| Access clarity | 63.7 |
+
+**Agent readiness 35.1** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/corsproxy-dev/](https://apis.io/providers/corsproxy-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for corsproxy-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/corsproxy-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
